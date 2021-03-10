@@ -1,0 +1,108 @@
+width:fit-content //بكون عرض علي قد محتوي لي له
+لا تستخدم
+h  ->افقي
+v  ->عمودي
+Blur ->مدي تاثير
+text-shadow: H-shadow V-shadow Blur color
+
+محاذه صورة مع نص
+vertical-align:top
+يعني بحط خط علي نص
+text-decoration:
+تحويل في نص
+text-transform
+مسافة بين حروف
+letter-spaceing
+مساحة فاضية قبل كلام
+text-indent:100px
+ارتفاع الخطوط
+1 تعني 100%
+line-height:1   
+مسافة بين كلمات
+word-spacing:1px;
+اول ما يوصل الكلام الي اخر مساحة ينزل لتحت
+white-space:nowrap يعني يخلي كلام   يعدي مساحة مطلوبة
+بيعمل تكسير لكلمه كبيرة
+word-break:brreak-all
+يحط 3 نقاط عن  نص مقطوع
+text-overflow:ellipsis
+
+/**css unit
+وحدات قياس
+px
+من مساحة لي بورثها
+em  =>time   مش رقم ثابت
+
+rem  Root element
+حجم عرض صفحة للمتصفح
+يعني لو كان عرض متصفح 900
+وانت حاط 1vw
+يعني يهطلع القيمة 9
+vw =>viewPort width
+
+تحكم بالخط
+font-style:italic
+
+يخلي  حروف كبيرة بشكل مختلف
+font-variant:small-caps
+تحكم بشكل الموقع
+cursor:pointer
+
+اول حرف في ديف
+div::first-letter{}
+اول سطر
+div::first-line{}
+لما يحدد بماوس يضهر له امر  
+::selection{}
+
+شفاف
+transparent  
+
+counter-increment:هتضيف اسم علي مزاجك
+وتستدعيه content:
+
+spreed سرعة انتار
+inset داخلي او خارجي
+box-shadow:h-shadow v-shadow blur spreed color inset
+
+يحسب قيمة padding or border
+box-sizing:content-box
+
+يعني بحسبش فيمة العناصر
+box-sizing:border-box
+
+
+انتقال
+transition-duration:.5s ينتقل في    
+
+
+/*************flex
+Grow  عنصر لي له اولية لي ينمو
+flex-Shrink بىتحدد عنصر لي اولوية نكمش 
+order :مسؤل علي توزيع العناصر
+Flex Basis:300px  لن يتاثر باي تغيير يحصل  في عرض والطول
+display:inline-flex عشان يجي اشي جنبوا
+
+align-self محاذه للعنصر نفسة
+
+
+
+/***filters
+//صورة تكون ابيض واسود
+filter:grayscale(100%);
+
+///Gradients تدرجات الالوان
+
+Direction وين يمشي 
+liner-gradient(Direction|| Angle,color-stop1,color-stop2...)
+
+red 80% يعني مساحته من شكل كامل
+وباقي الوان 20%
+background:liner-gradient(to right,red 80%,green)
+
+/****Caret Color
+/***Pointer Events
+
+
+/***grid
+1fr جزء من مساحة مطلوبة
